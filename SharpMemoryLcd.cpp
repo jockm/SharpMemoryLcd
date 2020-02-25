@@ -6,10 +6,10 @@
         static const int DISP = 2;
         static const int EXTC = 7;
 #else // ATmega 328 (Uno etc)
-        static const int DISP = 2;
-        static const int EXTC = 3;
+        static const int DISP = 9;
+        static const int EXTC = 10;
 #endif
-        static const int EXTM = 4; //this can just be pulled high on your PCB if you need the pin
+        static const int EXTM = 6; //this can just be pulled high on your PCB if you need the pin
         static const int SI = 11;
         static const int SCS = 12;
         static const int SCLK = 13;
